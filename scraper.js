@@ -5,7 +5,7 @@ const fs = require("fs");
 const DOMParser = require("dom-parser");
 
 async function scrapePage(url) {
-  fetch("https://www.bet.co.za/sports/tennis/")
+  fetch("https://www.betway.co.za/sport/tennis")
     .then(function (response) {
       // When the page is loaded convert it to text
       return response.text();
